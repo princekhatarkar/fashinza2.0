@@ -20,11 +20,17 @@ Open endpoints require no Authentication
 Endpoints for the APIs
 
 Show Accessible APIs : GET /
+
 Add A New Product : POST /ecart/
+
 Show All Products : GET /ecart/
+
 Show A Product : GET /ecart/:pk/
+
 Update A Product : PUT /ecart/:pk/
+
 Delete A Product : DELETE /ecart/:pk/
+
 Search Products : GET /ecart/products/
 
 Sample input to Add or Update A New Product: {"name":"PRODUCT_NAME", "quantity":PRODUCT_COUNT, "category_id":[INTEGER_ARRAY]}
